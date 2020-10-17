@@ -1,8 +1,6 @@
 {% extends "base.html" %}
 
 {% block content%}
-<a class="btn btn-primary" href="{{url_for('home')}}" role="button">Home</a>
-<a class="btn btn-primary" href="{{ url_for('register') }}" role="button">Sign up</a>
 <main role="main" class="container w-50">
     <form action="" method="POST">
         {{ form.hidden_tag() }}
